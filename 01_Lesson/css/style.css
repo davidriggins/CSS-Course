@@ -1,55 +1,15 @@
-/* This is the universal selector. It selects everything  
-* {
-    font-family: monospace;
-}
-*/
-
-html {
-    font-size: 22px;
-}
-
 body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #ffefd5;
+    color: rgb(0, 0, 0); /* rgb */
 }
 
-main {
-    font-family: monospace;
-}
-
-/* grouping selectors e.g apply to h1 and h2*/
-h1,
-h2 {
-    color: blue;
-}
-
-/* class selector: it has more specificity than an element selector */
-.gray {
-    color: gray;
-}
-
-/* element selector */
 p {
-    color: purple;
+    color: rgba(0, 0, 0, 0.5); /* alpha between 0 and 1 */
 }
 
-/* last definition is applied */
 p {
-    color: red;
-}
-
-/* applies to a span nested inside a paragraph 
-however, it is encouraged to use a class for this
-instead
-p span {
-    text-transform: uppercase;
-    background-color: gold;
-}
-*/
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-/* id selector */
-#second {
-    font-style: italic;
+    color: #333;
 }

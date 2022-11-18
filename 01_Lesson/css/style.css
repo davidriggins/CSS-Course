@@ -6,11 +6,27 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* input,
-button {
-    font: inherit;
+/* a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
 } */
 
-p {
-    line-height: 1.4;
+a {
+    color: hsl(207, 44%, 49%);
+}
+
+/* Must use this order (three below) */
+a:visited {
+    color: purple;
+}
+
+a:hover,
+a:focus {
+    /* color: hsl(189, 44%, 49%); */
+    opacity: 0.8;
+}
+
+a:active {
+    color: red;
 }
